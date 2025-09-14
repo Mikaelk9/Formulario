@@ -14,7 +14,7 @@ Com salvamento local (LocalStorage), os novos cadastros e usuários antes cadast
 Com uma interface simples, o intuído foi focar na manipulação do cadastro, para salvamento local, e recuperação dos dados.
 
 ### lista de cadastros:
-<img src="./src/img/fotolistform.png.png" alt="Texto alternativo" width="300" />
+<img src="./src/img/fotolistform.png" alt="Texto alternativo" width="300" />
 
 ## Funcionalidades
 - Cadastro de usuários
