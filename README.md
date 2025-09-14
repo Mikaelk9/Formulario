@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Começando com o Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi iniciado com o [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Sobre o projeto:
 
-In the project directory, you can run:
+O projeto consiste em salvar cadastros de usuários adicionados a partir de um formulário, e listar todos os usuários  ja cadastrados, e os novos cadastros, assim como excluir usuários já cadastrados.
 
-### `npm start`
+Com salvamento local (LocalStorage), os novos cadastros e usuários antes cadastrados, serão salvos em sua máquina, e listados sempre que acessar novamente o website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### página de cadastro:
+<img src="./src/img/fotoform.png" alt="Texto alternativo" width="300" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Com uma interface simples, o intuído foi focar na manipulação do cadastro, para salvamento local, e recuperação dos dados.
+
+### lista de cadastros:
+<img src="./src/img/fotolistform.png.png" alt="Texto alternativo" width="300" />
+
+## Funcionalidades
+- Cadastro de usuários
+- Salvamento em LocalStorage
+- Lista de usuários já cadastrados
+- Exclusão de usuários
+
+
+## Tecnologias Usadas
+- React
+
+Projeto realizado utilizando ReactJS
+
+
+## Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Mikaelk9/Formulario.git 
+   ```
+2. No diretório do projeto, você pode rodar:
+   ```bash
+   ### `npm start`
+   Roda o app no modo de desenvolvimento.\
+   Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no seu navegador.
+   ```
+3. Execute as funcionalidades:
+   ```bash
+   - Cadastros de usuários
+   - Salvamento local 
+   - Exclusão de usuários
+   ```
+
+
+## Scripts Disponíveis
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o runner de testes no modo de observação interativo.\
+Veja a seção sobre [executando testes](https://facebook.github.io/create-react-app/docs/running-tests) para mais informações.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cria a versão para produção do app na pasta `build`.\
+Ele agrupa corretamente o React no modo de produção e otimiza o build para a melhor performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O build é minificado e os nomes dos arquivos incluem os hashes.\
+Seu app está pronto para ser implantado!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Veja a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Nota: essa é uma operação irreversível. Após usar `eject`, não será possível voltar!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você não estiver satisfeito com as escolhas de ferramentas e configurações de build, pode usar o comando `eject` a qualquer momento. Esse comando removerá a dependência única de build do seu projeto.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc.) diretamente para o seu projeto, permitindo que você tenha total controle sobre elas. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles apontarão para os scripts copiados, permitindo que você os ajuste conforme necessário. A partir desse ponto, você estará por conta própria.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Você não precisa usar o comando `eject` nunca. O conjunto de recursos oferecido é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para isso.
 
-## Learn More
+## Saiba Mais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para aprender React, confira a [documentação do React](https://reactjs.org/).
 
-### Code Splitting
+### Divisão de Código
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Analisando o Tamanho do Pacote
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Criando um Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Configuração Avançada
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Implantação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### `npm run build` falha ao minificar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esta seção foi movida para cá: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

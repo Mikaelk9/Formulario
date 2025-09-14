@@ -1,0 +1,24 @@
+.container {
+    width: 100%; 
+    min-height: 85%; 
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    flex-wrap: wrap; 
+    padding: 10px;
+    align-items: center;
+}
+
+.min-height {
+    min-height: 75%; 
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

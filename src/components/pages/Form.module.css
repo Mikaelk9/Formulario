@@ -1,0 +1,56 @@
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;    
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px  5px  7px   0   rgba(0,0,0, 0.15);
+}
+.form_title{
+    border-bottom: solid 1px #CACACA;
+    color: #202022;
+    padding: 10px;
+}
+.form .label{
+    padding: 20px 0;
+    height: 70%;
+}
+.label label{
+    font-size: 1em;
+    color: #202022;
+}
+.label input{
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    border: solid 1px #CACACA;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #878787;
+}
+
+.label button{
+    background-color: #222;
+    color: #CACACA;
+    padding: 0.7em 1.2em;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration:none;
+    transition: .5s;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+.label button:hover{
+    background-color: #fff;
+    color: #222;
+}
+
+.erro {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
