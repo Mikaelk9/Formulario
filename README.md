@@ -24,10 +24,11 @@ Com uma interface simples, o intuído foi focar na manipulação do cadastro, pa
 
 
 ## Tecnologias Usadas
+- HTML
+- CSS
+- JavaScript
 - React
-
-Projeto realizado utilizando ReactJS
-
+- React Router
 
 ## Instalação
 1. Clone o repositório:
