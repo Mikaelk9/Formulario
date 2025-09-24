@@ -9,12 +9,12 @@ O projeto consiste em salvar cadastros de usuários adicionados a partir de um f
 Com salvamento local (LocalStorage), os novos cadastros e usuários antes cadastrados, serão salvos em sua máquina, e listados sempre que acessar novamente o website.
 
 ### página de cadastro:
-<img src="./src/img/fotoform.png" alt="Texto alternativo" width="300" />
+<img src="./src/img/fotoform.png" alt="Texto alternativo" width="500" />
 
 Com uma interface simples, o intuído foi focar na manipulação do cadastro, para salvamento local, e recuperação dos dados.
 
 ### lista de cadastros:
-<img src="./src/img/fotolistform.png" alt="Texto alternativo" width="300" />
+<img src="./src/img/fotolistform.png" alt="Texto alternativo" width="600" />
 
 ## Funcionalidades
 - Cadastro de usuários
