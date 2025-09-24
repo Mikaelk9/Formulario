@@ -4,7 +4,7 @@ Este projeto foi iniciado com o [Create React App](https://github.com/facebook/c
 
 ## Sobre o projeto:
 
-O projeto consiste em salvar cadastros de usuários adicionados a partir de um formulário, e listar todos os usuários  ja cadastrados, e os novos cadastros, assim como excluir usuários já cadastrados.
+O projeto consiste em salvar cadastros de usuários adicionados a partir de um formulário, listar todos os usuários cadastrados, e os novos cadastros, assim como excluir usuários já cadastrados.
 
 Com salvamento local (LocalStorage), os novos cadastros e usuários antes cadastrados, serão salvos em sua máquina, e listados sempre que acessar novamente o website.
 
